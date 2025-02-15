@@ -1,11 +1,12 @@
 import React from 'react'
+import Main from '../components/Main'
 
-const Artists = () => {
+const Artist = () => {
   return (
-    <div>
-      
-    </div>
+    <Main type="artists">
+
+    </Main>
   )
 }
 
-export default Artists
+export default Artist

@@ -1,11 +1,12 @@
 import React from 'react'
+import Main from '../components/Main'
 
-const Songs = () => {
+const Artist = () => {
   return (
-    <div>
-      
-    </div>
+    <Main type="songs">
+
+    </Main>
   )
 }
 
-export default Songs
+export default Artist
