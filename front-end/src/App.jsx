@@ -2,10 +2,10 @@ import React from 'react'
 import Header from './components/Header'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
-import Artists from './pages/artists'
-import Artist from './pages/artist'
-import Songs from './pages/songs'
-import Song from './pages/song'
+import Artists from './pages/Artists.jsx'
+import Artist from './pages/Artist.jsx'
+import Songs from './pages/Songs.jsx'
+import Song from './pages/Song.jsx'
 
 const App = () => {
   return (
